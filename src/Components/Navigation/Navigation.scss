@@ -1,0 +1,21 @@
+.SideNavigation {
+  width: 18%;
+  height: 100vh;
+  background-color: #2f3542;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  * {
+    padding: 20px;
+  }
+
+  .NavigationIcon {
+    transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
